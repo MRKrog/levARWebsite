@@ -12,6 +12,41 @@
     .Footer-Top {
       flex: 1;
       display: flex;
+
+      /* klaviyo form */
+      form {
+        font-family: $fontRoboto !important;
+
+        .kwGIvD.kwGIvD, .kLhEFG.kLhEFG, .gQwSQo.gQwSQo {
+          padding: 0;
+        }
+
+        .fxfLWS.fxfLWS.fxfLWS.fxfLWS.fxfLWS.fxfLWS .ql-editor p {
+          text-align: left !important;
+
+          strong {
+            font-family: $fontBebasRegular !important;
+            color: $levarWhite;
+            margin: 0;
+            font-size: 1.75em;
+            letter-spacing: .04em;
+          }
+        }
+
+        .fxfLWS.fxfLWS.fxfLWS.fxfLWS.fxfLWS.fxfLWS .ql-editor .ql-font-helvetica {
+          font-family: $fontRoboto !important;
+          font-size: 1.2em;
+        }
+
+        .kwGIvD.kwGIvD {
+          padding: .5em 0em;
+        }
+
+        .izyMjd.izyMjd.izyMjd.izyMjd.izyMjd.izyMjd {
+          font-family: $fontAbel !important;
+          background: $primaryBtnColor;
+        }
+      }
     }
 
     .Footer-Bottom {
@@ -22,6 +57,7 @@
 
       p {
         margin: 0;
+        font-family: $fontRobotoCond;
         color: #616161;
       }
     }

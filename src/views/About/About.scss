@@ -1,3 +1,45 @@
 .About {
   display: flex;
+  flex-direction: column;
+  background: #f9f9f9;
+  padding: 2em 2em;
+
+  .About-Intro {
+    width: 100%;
+    max-width: 960px;
+    text-align: center;
+    margin: auto;
+  }
+
+  .About-Employees {
+    width: 100%;
+    max-width: 960px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    padding: 2em 0em 2em 0em;
+
+    .employee {
+      width: 23%;
+      background-size: cover;
+      background-position: top center;
+      padding: 1em;
+      margin: 1%;
+      height: 250px;
+      border-radius: 4px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+
+      p {
+        margin: 0;
+        color: $levarWhite;
+        font-family: $fontAbel;
+
+        &:first-child {
+          font-weight: bold;
+        }
+      }
+    }
+  }
 }

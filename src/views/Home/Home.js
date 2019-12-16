@@ -20,4 +20,12 @@ const Home = () => {
   )
 }
 
-export default Home;
+export const mapStateToProps = state => ({
+  loading: state.loading,
+});
+
+export const mapDispatchToProps = dispatch => ({
+  setLoading: data => dispatch(action.setLoading(data)),
+});
+
+export default connect(mapStateToProps, mapDispatchToProps)(Home);

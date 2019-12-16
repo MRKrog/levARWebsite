@@ -1,13 +1,14 @@
 .Hero {
   display: flex;
-  background: #4a4a4a;
+  background: #8c8c8c;
   padding: 2em 2em;
 
   .video {
     flex: 1;
-    
+
     video {
       border-radius: 4px;
+      box-shadow: 0 0 4px 0px #000000ad;
     }
   }
 
@@ -18,6 +19,7 @@
 
   .levarH2 {
     @include levarTitle;
+    margin-bottom: 0;
   }
 
   .levarCopy {
