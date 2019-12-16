@@ -1,7 +1,7 @@
-# MKrog React Template
+# levAR Website
 
 ## Overview:
-This is my react template that I am always changing and updating!
+levAR Website working on built in React
 
 ## Preview:
 <!-- ![Homepage Preview](src/images/Homepage.png) -->
@@ -11,7 +11,7 @@ This is my react template that I am always changing and updating!
 These instructions will get a copy of the project up and running on your local machine for usage and testing purposes.
 
 ### Frontend
-clone down the repo: ```$ git clone https://github.com/MRKrog/mk-template```
+clone down the repo: ```$ git clone https://github.com/MRKrog/levARWebsite```
 
 cd into directory and run npm install: ```$ npm install```
 
@@ -19,7 +19,7 @@ Start up in your terminal: ```$ npm start ```
 
 
 ### Technologies Used
-Palette Picker was built using:
+levAR Website was built using:
 - [React.js](https://reactjs.org/)
 - [Redux.js](https://redux.js.org/)
 - [SCSS](https://sass-lang.com/)
@@ -31,4 +31,4 @@ And tested using:
 - [Michael Krog](https://github.com/MRKrog)
 
 ---
-**[Back to top](https://github.com/MRKrog/mk-template)**
+**[Back to top](https://github.com/MRKrog/levARWebsite)**
