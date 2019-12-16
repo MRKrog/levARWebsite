@@ -1,3 +1,23 @@
 .FourCarousel {
-  display: flex;
+  background: #f9f9f9;
+  width: 100%;
+  padding: 2em 2em;
+
+  .FourCarousel-Container {
+    width: 100%;
+    max-width: 960px;
+    display: flex;
+    margin: auto;
+
+    .carousel-category {
+      flex: 1;
+      text-align: center;
+      padding-right: 1em;
+
+      &:last-child {
+        padding-right: 0em;
+      }
+    }
+  }
+
 }

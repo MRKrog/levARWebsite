@@ -1,11 +1,12 @@
 import React from 'react';
-// import { connect } from "react-redux";
-// import * as action from "../../redux/actions";
-import Hero from '../../components/Hero/Hero.js'
-import FeatureBar from '../../components/FeatureBar/FeatureBar.js'
-import FeatureRow from '../../components/FeatureRow/FeatureRow.js'
-import FourCarousel from '../../components/FourCarousel/FourCarousel.js'
+import { connect } from "react-redux";
+import * as action from "../../redux/actions";
 
+import Hero from '../../components/Hero/Hero.js'
+import FeatureBar from '../../components/FeatureBar/FeatureBar.js';
+import FeatureRow from '../../components/FeatureRow/FeatureRow.js';
+import FourCarousel from '../../components/FourCarousel/FourCarousel.js';
+import FeatureRowSingle from '../../components/FeatureRowSingle/FeatureRowSingle.js';
 
 const Home = () => {
   return (
@@ -14,8 +15,7 @@ const Home = () => {
       <FeatureBar />
       <FeatureRow />
       <FourCarousel />
-      <FeatureRow />
-
+      <FeatureRowSingle />
     </div>
   )
 }

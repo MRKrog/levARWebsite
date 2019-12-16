@@ -1,3 +1,18 @@
 .FeatureBar {
   display: flex;
+  justify-content: center;
+  text-align: center;
+  background: #f9f9f9;
+  padding: 2em 2em;
+
+  .levarH3 {
+    font-size: 2em;
+    padding-bottom: .5em;
+    margin: 0;
+  }
+
+  .levarCopy {
+    margin: 0;
+  }
+
 }

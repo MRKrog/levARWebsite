@@ -1,3 +1,14 @@
 .FeatureRow {
   display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 960px;
+  margin: auto;
+  padding: 2em 0;
+
+  .copy-container {
+    padding: 0 1em;
+  }
+
 }

@@ -1,3 +1,46 @@
 .Footer {
-  display: flex;
+  width: 100%;
+  padding: 3em 0 1em 0;
+
+  .Footer-Container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 960px;
+    margin: auto;
+
+    .Footer-Top {
+      flex: 1;
+      display: flex;
+    }
+
+    .Footer-Bottom {
+      flex: 1;
+      padding-top: 3em;
+      display: flex;
+      justify-content: flex-end;
+
+      p {
+        margin: 0;
+        color: #616161;
+      }
+    }
+
+    .levarH5 {
+      @include levarTitle5;
+    }
+
+    .levarCopy {
+      margin-top: 0;
+    }
+
+    a {
+      margin-top: 1em;
+      text-decoration: none;
+      font-family: $fontAbel;
+      font-size: 1.25em;
+      color: $primaryBtnColor;
+    }
+
+  }
 }
